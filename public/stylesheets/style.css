@@ -1,0 +1,43 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+body{
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+label, input{
+  display: block;
+}
+
+input, select{
+  margin-bottom: 16px;
+}
+
+.info-row, .info-container{
+  display: flex;
+}
+
+.info-row{
+  flex: 1;
+}
+
+.label{
+  font-weight: bold;
+  margin-right: 8px;
+}
+
+.info-container{
+  gap: 16px;
+}
+
+.name-row{
+  font-size: 20px;
+}
+
