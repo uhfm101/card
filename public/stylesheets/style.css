@@ -41,3 +41,51 @@ input, select{
   font-size: 20px;
 }
 
+.card p{
+  margin: 6px;
+}
+
+.card{
+  border: 1px solid #999;
+  border-radius: 8px;
+  max-width: 400px;
+  padding: 16px;
+}
+
+.title{
+  display: flex;
+  justify-content: center;
+  color: black;
+  font-family: Broadway;
+}
+
+.address-text p{
+  padding: 0;
+  margin: 0;
+}
+
+.address-text p:first-child{
+  margin-top: 6px;
+}
+
+.address-text p:last-child{
+  margin-top: 6px;
+}
+
+.card.platinum{
+  border: 2px solid rgba(232, 236, 250, 0.79);
+  color: rgba(232, 236, 250, 0.79);
+  background-color: navy;
+}
+
+.card.gold{
+  border: 2px solid #ffd344;
+  color: #ffd344;
+  background-color: #adbffc;
+}
+
+.card.bronze{
+  border: 2px solid #a94427;
+  color: #a94427;
+  background-color: ivory;
+}
