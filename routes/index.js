@@ -20,7 +20,8 @@ router.post('/card', function(req, res){
     zip: req.body.zip,
     accountNumber: createAccountNumber(),
     currentDate: new Date(),
-    cardClass: getCardClass(req.body.type)
+    cardClass: getCardClass(req.body.type),
+    startDate: new Date(req.body.startDate),
   })
 })
 
